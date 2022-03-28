@@ -66,7 +66,8 @@ if __name__ == '__main__':
     parser.add_argument('-m',
                         '--infer-model-name',
                         type=str,
-                        required=True,
+                        required=False,
+                        default="bicycletypenet_tao",
                         help='Name of model')
     parser.add_argument('-x',
                         '--infer-model-version',
